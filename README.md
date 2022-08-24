@@ -6,7 +6,7 @@ This is my personal website project, based on this [design](https://www.figma.co
 
 ## Inspiration
 
-This design is based on these creator personal website :
+This design is based on these personal website :
 
 - [Dominik Sumer](https://dominik.sumer.dev/)
 - [Griko Nibras](https://griko.id/)
