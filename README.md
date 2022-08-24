@@ -12,4 +12,4 @@ This design is based on these personal website :
 - [Griko Nibras](https://griko.id/)
 - [Anthony Fu](https://antfu.me/)
 
-For now is still barebone in html and not styled yet. However, it will always be updated in future.
+For now is still barebone in HTML and not styled yet. However, it will always be updated in future.
