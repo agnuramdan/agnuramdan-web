@@ -54,3 +54,8 @@ nav {
   background-color: #0F3D3E;
   border-radius: 8px;
 }
+
+main {
+  max-width: 50em;
+  margin: auto;
+}
