@@ -1,14 +1,18 @@
-body  {
-  font-family: 'Roboto';
+body {
+  font-family: "Roboto";
   margin: 0 auto;
+}
+
+p {
+  text-align: justify;
 }
 
 nav {
   font-size: 24px;
   margin: 0;
   padding: 10px 24px;
-  background-color: #100F0F;
-  color: #E2DCC8;
+  background-color: #100f0f;
+  color: #e2dcc8;
   overflow: hidden;
   position: fixed;
   top: 0;
@@ -16,7 +20,7 @@ nav {
 }
 
 .nav-logo {
-  color: #E2DCC8;
+  color: #e2dcc8;
   text-decoration: none;
   float: left;
   padding: 10px 0;
@@ -30,7 +34,7 @@ nav {
 }
 
 .nav-item {
-  color: #E2DCC8;
+  color: #e2dcc8;
   padding: 10px 10px;
   text-decoration: none;
   text-align: center;
@@ -38,20 +42,20 @@ nav {
 
 .nav-item:hover {
   border-style: solid;
-  border-color: #E2DCC8;
+  border-color: #e2dcc8;
   border-width: 2px;
   border-radius: 8px;
 }
 
 .nav-item:active {
   border-style: solid;
-  border-color: #E2DCC8;
+  border-color: #e2dcc8;
   border-width: 2px;
   border-radius: 8px;
 }
 
 .contact-button {
-  background-color: #0F3D3E;
+  background-color: #0f3d3e;
   border-radius: 8px;
 }
 
@@ -61,8 +65,20 @@ main {
   margin: 0 auto;
 }
 
+.intro-section {
+  padding: 10em 0;
+  display: flex;
+}
+
+.profile-container {
+  max-width: max-content;
+}
+
 .profile-image {
   height: 15em;
   width: 15em;
   border-radius: 100%;
+}
+.intro-item {
+  padding: 30px;
 }
