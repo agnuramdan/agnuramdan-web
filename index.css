@@ -66,7 +66,7 @@ main {
 }
 
 .intro-section {
-  padding: 10em 0;
+  padding: 25% 0;
   display: flex;
 }
 
@@ -79,6 +79,24 @@ main {
   width: 15em;
   border-radius: 100%;
 }
+
 .intro-item {
   padding: 30px;
+}
+
+.tools-section {
+  padding: 25% 0;
+}
+
+.tools-container {
+  margin: 0;
+  padding-left: 25%;
+  list-style: none;
+  display: flex;
+}
+
+.tools-icon {
+  padding: 0 20px;
+  height: 80px;
+  width: 80px;
 }
