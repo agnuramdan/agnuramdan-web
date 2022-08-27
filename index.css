@@ -56,8 +56,9 @@ nav {
 }
 
 main {
+  padding: 4em;
   max-width: 50em;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .profile-image {
