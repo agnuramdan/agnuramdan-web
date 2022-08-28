@@ -1,14 +1,30 @@
 body {
+  background-color: #100f0f;
   font-family: "Roboto";
   margin: 0 auto;
 }
 
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h1, h2 {
+  margin : 0;
+  color: #A27B5C;
+}
+
 p {
+  font-size: 1.2em;
   text-align: justify;
+  color: #F1F1F1;
 }
 
 nav {
-  font-size: 24px;
+  font-size: 1em;
   margin: 0;
   padding: 10px 24px;
   background-color: #100f0f;
@@ -66,7 +82,7 @@ main {
 }
 
 .intro-section {
-  padding: 25% 0;
+  padding: 15em 0;
   display: flex;
 }
 
@@ -81,11 +97,11 @@ main {
 }
 
 .intro-item {
-  padding: 30px;
+  padding: 0 30px;
 }
 
 .tools-section {
-  padding: 25% 0;
+  padding: 15em 0;
 }
 
 .tools-container {
