@@ -64,12 +64,6 @@ nav {
   outline-style: inset;
 }
 
-.nav-item:active {
-  outline: #e2dcc8;
-  outline-width: 2px;
-  outline-style: inset;
-}
-
 .contact-button {
   background-color: #0f3d3e;
   border-radius: 8px;
