@@ -29,32 +29,28 @@ a {
 }
 
 nav {
-  font-size: 1em;
+  display: flex;
+  font-size: 1.2em;
   margin: 0;
-  padding: 10px 24px;
+  padding: 20px 24px;
   background-color: #100f0f;
   color: #e2dcc8;
-  overflow: hidden;
   position: fixed;
-  top: 0;
   width: 100%;
+  justify-content: space-between ;
 }
 
 .nav-logo {
   color: #e2dcc8;
-  text-decoration: none;
-  float: left;
-  padding: 10px 0;
+  padding: 0 10px;
 }
 
 .nav-item-container {
-  padding: 10px;
-  margin-right: 1%;
-  float: right;
-  display: inline;
+  margin-right: 40px;
 }
 
 .nav-item {
+  margin: 0 20px;
   color: #e2dcc8;
   padding: 10px 10px;
   text-decoration: none;
@@ -64,18 +60,14 @@ nav {
 
 .nav-item:hover {
   outline: #e2dcc8;
-  outline-width: 2px;
+  outline-width: 3px;
   outline-style: inset;
-  /* border-style: outset; */
-  /* border-color: #e2dcc8; */
-  /* border-width: 2px; */
 }
 
 .nav-item:active {
-  border-style: solid;
-  border-color: #e2dcc8;
-  border-width: 2px;
-  border-radius: 8px;
+  outline: #e2dcc8;
+  outline-width: 2px;
+  outline-style: inset;
 }
 
 .contact-button {
@@ -162,8 +154,13 @@ main {
 }
 
 a.show-more-button {
+  display: inline-block;
   background-color: #e2dcc8;
   color: #100f0f;
   padding: 8px;
   border-radius: 8px;
+}
+
+a.show-more-button:hover {
+  transform: scale(1.1);
 }
