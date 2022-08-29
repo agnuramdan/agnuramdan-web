@@ -59,13 +59,16 @@ nav {
   padding: 10px 10px;
   text-decoration: none;
   text-align: center;
+  border-radius: 8px;
 }
 
 .nav-item:hover {
-  border-style: solid;
-  border-color: #e2dcc8;
-  border-width: 2px;
-  border-radius: 8px;
+  outline: #e2dcc8;
+  outline-width: 2px;
+  outline-style: inset;
+  /* border-style: outset; */
+  /* border-color: #e2dcc8; */
+  /* border-width: 2px; */
 }
 
 .nav-item:active {
@@ -158,6 +161,9 @@ main {
   color: #100f0f;
 }
 
-.show-more-button a {
-  color: #e2dcc8;
+a.show-more-button {
+  background-color: #e2dcc8;
+  color: #100f0f;
+  padding: 8px;
+  border-radius: 8px;
 }
