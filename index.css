@@ -1,6 +1,6 @@
 body {
   background-color: #100f0f;
-  font-family: "Roboto";
+  font-family: "Share", cursive;
   margin: 0 auto;
 }
 
@@ -122,14 +122,15 @@ nav {
 
 .card-container {
   margin: 25px 0;
-  justify-content: space-between;
+  display: flex;
+  justify-content: center;
 }
 
 .project-card {
-  display: inline-block;
   background-color: #f1f1f1;
   border-radius: 8px;
-  width: 33%;
+  margin: 10px;
+  width: 30%;
 }
 
 .project-image {
