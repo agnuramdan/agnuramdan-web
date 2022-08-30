@@ -5,11 +5,11 @@ body {
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 4em;
 }
 
 h2 {
-  font-size: 2em;
+  font-size: 3em;
 }
 
 h1,
@@ -19,14 +19,14 @@ h2 {
 }
 
 p {
-  font-size: 1.2em;
+  font-size: 1.35em;
   text-align: justify;
   color: #f1f1f1;
 }
 
 a {
   text-decoration: none;
-  color: #3f4e4f;
+  color: #03b6c3;
 }
 
 nav {
@@ -87,8 +87,8 @@ main {
 }
 
 .profile-image {
-  height: 15em;
-  width: 15em;
+  height: 400px;
+  width: 400px;
   border-radius: 50%;
 }
 
