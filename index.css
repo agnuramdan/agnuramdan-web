@@ -29,6 +29,17 @@ a {
   color: #03b6c3;
 }
 
+section {
+  margin-top: 25%;
+}
+
+main {
+  padding-top: 4em;
+  padding-bottom: 0;
+  max-width: 50em;
+  margin: 0 auto;
+}
+
 nav {
   display: flex;
   font-size: 1.2em;
@@ -70,15 +81,7 @@ nav {
   border-radius: 8px;
 }
 
-main {
-  padding-top: 4em;
-  padding-bottom: 0;
-  max-width: 50em;
-  margin: 0 auto;
-}
-
 .intro-section {
-  padding: 15em 0;
   display: flex;
 }
 
@@ -169,4 +172,40 @@ a.show-more-button:hover {
   bottom: 0;
   display: flex;
   justify-content: center;
+}
+
+/* contact page style */
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-media-icon {
+  margin: 10px;
+  width: 60px;
+  height: auto;
+}
+
+img.social-media-icon:hover {
+  transform: scale(1.05);
+}
+
+.send-email-container {
+  display: flex;
+  justify-content: center;
+}
+
+a.send-email-button {
+  color: #100f0f;
+  background-color: #e2dcc8;
+  max-width: fit-content;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+a.send-email-button:hover {
+  transform: scale(1.05);
 }
